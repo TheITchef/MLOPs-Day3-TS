@@ -1,0 +1,4 @@
+data_path: "data/day3_data.csv"
+column: "value"
+log_level: "INFO"
+output_path: "outputs/mean.txt"
