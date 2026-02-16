@@ -14,6 +14,7 @@ def run_pipeline():
     print(df.columns)  # Debug helper
     mean_value = compute_mean(df, "value")
     print(f"Mean value is: {mean_value}")
+    print("This is a dev-branch change")
 
 
 if __name__ == "__main__":
