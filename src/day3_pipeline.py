@@ -11,9 +11,12 @@ def compute_mean(df: pd.DataFrame, column: str) -> float:
 
 def run_pipeline():
     df = load_data("data/day3_data.csv")
+    print(df.columns)  # Debug helper
     mean_value = compute_mean(df, "value")
-    print(f"MEAN VALUE IS: {mean_value}")
+    print(f"Mean value is: {mean_value}")
 
 
 if __name__ == "__main__":
     run_pipeline()
+
+print("Pipeline executed successfully")
